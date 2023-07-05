@@ -1,0 +1,33 @@
+.car-collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 20px;
+    width: 280px;
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .car-collection h4 {
+    color: #9e4545;
+    text-align: left;
+  }
+  
+  .car-collection > div {
+    width: 48%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #e1d2d2;
+    border-radius: 4px;
+    box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
+
+  }
+  
+  @media (max-width: 768px) {
+    .car-collection > div {
+      width: 100%;
+    }
+  }
+  

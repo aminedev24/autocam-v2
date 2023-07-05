@@ -1,0 +1,149 @@
+.deals-section {
+    padding: 20px;
+    box-shadow: 0 0 3px #ccc;
+  }
+  
+  .deals-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .deals-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .deal-item {
+    width: 20%;
+    padding: 0 20px 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .deal-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .deal-title {
+    margin-top: 10px;
+  }
+
+  .alerts {
+    display: flex;
+    gap: 42px;
+  }
+
+  .price-drop-alert-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    width: 20%;
+    margin: 0 35px;
+  }
+  
+  .price-drop-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .price-drop-image {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .price-drop-text {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .price-drop-heading {
+      font-size: 20px;
+    }
+  
+    .price-drop-image {
+      width: 80px;
+    }
+  
+    .price-drop-text {
+      font-size: 14px;
+    }
+  }
+
+  
+  .important-notice-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f1f1f1;
+    
+    
+  }
+
+  .important-notice-heading {
+    /*display: flex;*/
+  }
+  
+  .deal-image:hover {
+    transform: rotateX(10deg) rotateY(10deg) scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .important-notice-container, .price-drop-alert-container {
+    width: 20%;
+    height: fit-content;
+  }
+  
+  
+  .notice-image {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .important-notice-heading h2 {
+    font-size: 24px;
+  }
+  
+  .important-notice-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: 10px;
+  }
+  
+  .notice-text {
+    margin-bottom: 10px;
+  }
+  
+  .notice-text p {
+    font-size: 16px;
+  }
+  
+  .read-more-link {
+    color: blue;
+  }
+  
+  @media (max-width: 768px) {
+    .important-notice-heading h2 {
+      font-size: 20px;
+    }
+  
+    .notice-image {
+      width: 60px;
+    }
+  
+    .notice-text p {
+      font-size: 14px;
+    }
+  }
+  
