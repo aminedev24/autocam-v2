@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/autocam-v2/static/css/main.4242732b.css",
-    "main.js": "/autocam-v2/static/js/main.3762435f.js",
+    "main.css": "/autocam-v2/static/css/main.13352387.css",
+    "main.js": "/autocam-v2/static/js/main.38160675.js",
     "static/js/787.6ac126e9.chunk.js": "/autocam-v2/static/js/787.6ac126e9.chunk.js",
     "static/media/FLASHSALE-sale_n copy.jpg": "/autocam-v2/static/media/FLASHSALE-sale_n copy.bc02b6d94c1e9aec8620.jpg",
     "static/media/BARGAINSALE-sale_n copy.jpg": "/autocam-v2/static/media/BARGAINSALE-sale_n copy.da25f30d99c6736fd73d.jpg",
     "static/media/alertimg.png": "/autocam-v2/static/media/alertimg.c4cefc4cf562106db2a1.png",
     "static/media/logo.svg": "/autocam-v2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/autocam-v2/index.html",
-    "main.4242732b.css.map": "/autocam-v2/static/css/main.4242732b.css.map",
-    "main.3762435f.js.map": "/autocam-v2/static/js/main.3762435f.js.map",
+    "main.13352387.css.map": "/autocam-v2/static/css/main.13352387.css.map",
+    "main.38160675.js.map": "/autocam-v2/static/js/main.38160675.js.map",
     "787.6ac126e9.chunk.js.map": "/autocam-v2/static/js/787.6ac126e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4242732b.css",
-    "static/js/main.3762435f.js"
+    "static/css/main.13352387.css",
+    "static/js/main.38160675.js"
   ]
 }
